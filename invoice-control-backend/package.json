@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules -r tsconfig-paths/register src/index.ts",
-    "generate": "prisma generate --schema=./src/db/schema.prisma",
-    "migrate": "prisma migrate dev --name init --schema=./src/db/schema.prisma"
+    "migrate": "prisma migrate dev --name init --schema=./src/db/schema.prisma",
+    "generate": "prisma generate --schema=./src/db/schema.prisma"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
